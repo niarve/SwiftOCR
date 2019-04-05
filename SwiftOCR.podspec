@@ -107,9 +107,9 @@ Pod::Spec.new do |s|
   s.resources  = "framework/SwiftOCR/OCR-Network", "framework/SwiftOCR/Realistic Training Images/*.png"
   # s.resources = "Resources/*.png"
 
-  s.dependency = "Swift-AI"
-  s.dependency = "GPUImage"
-  s.dependency = "Union-Find"
+  s.dependency "Swift-AI"
+  s.dependency "GPUImage"
+  s.dependency "Union-Find"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
